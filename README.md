@@ -1,6 +1,6 @@
 # COVID-19 Executive Orders Dataset (USA)
   
-In April, BroadStreet and The COVID-19 Data Project partnered with Temple University’s Center for Public Health Law Research (CPHLR) to look longitudinally at executive orders, health directives, proclamations, and policies related to COVID-19. We have refined CPHLR’s process, enabling the collection of city, state, and US territory  orders which are then reduced to quantitative and qualitative data to allow for simple access and analysis. 
+In April, BroadStreet and The COVID-19 Data Project partnered with Temple University’s Center for Public Health Law Research (CPHLR) to look longitudinally at executive orders, health directives, proclamations, and policies related to COVID-19. We have refined CPHLR’s process, enabling the collection of city, state, and US territory  orders which are then reduced to quantitative and qualitative data to allow for simple access and analysis. ![BroadStreet Health](https://github.com/BroadStreet-Health/images/blob/main/covid-dark@2x.png)
   
 ## Structure
 The data is in wide format. It is stored in a csv file <file_name> with the following 22 column fields. 
