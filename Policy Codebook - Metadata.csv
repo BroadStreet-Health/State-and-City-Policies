@@ -1,5 +1,5 @@
-Variable;Description;Value
-iden_num;The identification number of the location using FIPS codes,
+Variable,Description,Value
+iden_num,The identification number of the location using FIPS codes,
 geo_type,What type of location is affected by the order,
 name,The text name of the location,
 order_num,The name of the Executive Order or Proclamation,
