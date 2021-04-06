@@ -1,4 +1,4 @@
-Variable,Description,Value
+field_name,description,value
 iden_num,The identification number of the location using FIPS codes,
 geo_type,What type of location is affected by the order,
 name,The text name of the location,
@@ -7,7 +7,7 @@ amend,If the order is an amendment to a previous order,0=no; 1=yes
 start_d,The date that the order goes into effect,MM/DD/YYYY; with leading zeros (02/17/2009)
 end_d,The date that the order will no longer be in effect,MM/DD/YYYY; with leading zeros (02/17/2009; 0 = no date
 initial_emgcy,If the order is the initial state of emergency declaration,0=no; 1=yes
-cont_emgcy,If the order is in result of state of emergency declaration,0=no; 1=yes
+cont_emgcy,If the order has been released in response to COVID-19 pandemic,0=no; 1=yes
 reopen,If the order contains measures related to re-opening,0=no; 1=yes
 stay_home,If the order contains measures related to stay at home directives,0=no; 1=yes
 curfew,If the order contains measures related to mandated or suggested curfew,0=no; 1=yes
@@ -21,4 +21,5 @@ med_proc,If the order contains measures related to medical procedures,0=no; 1=ye
 travel,If the order contains measures related to travel restrictions,0=no; 1=yes
 correc_fac,If the order contains measures related to correctional facilities,0=no; 1=yes
 notes,Notes about the Order or Proclamation,plain text
+
 
