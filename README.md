@@ -16,28 +16,28 @@ The data is in wide format. It is stored in a csv file with the following 22 col
 ### Content
 | field_name | description | value |
 | :-- | :--: | :--: |
-| iden_num |: The identification number of the location using [FIPS codes](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)|
-| geo_type |: Whether the order applies to a city/state/territory | |
+| iden_num | The identification number of the location using [FIPS codes](https://transition.fcc.gov/oet/info/maps/census/fips/fips.txt)|
+| geo_type | Whether the order applies to a city/state/territory | |
 | name | The text name of the city/state/territory | |
-| order_num |: The name of the Executive Order or Proclamation |
-| amend | : If the order is an amendment to a previous order | ; 0=no, 1=yes |
-| start_d |: The date that the order goes into effect |, MM/DD/YYYY |with leading zeros (02/17/2009)
-| end_d |: The date that the order will no longer be in effect |, MM/DD/YYYY; with leading zeros (02/17/2009; 0=no date |
-| initial_emgcy |: If the order is the initial state of emergency declaration |; 0=no, 1=yes |
-| cont_emgcy |:  If the order has been released in response to COVID-19 pandemic |; 0=no, 1=yes |
-| reopen | : If the order contains measures related to re-opening |; 0=no, 1=yes |
-| stay_home |: If the order contains measures related to stay at home directives |; 0=no, 1=yes |
-| curfew |: If the order contains measures related to mandated or suggested curfew |; 0=no, 1=yes |
-| mask_req |: If the order contains measures related to mask/face-covering requirements |; 0=no, 1=yes |
-| gather_ban |: If the order contains measures related to gathering ban |0=no, 1=yes |
-| social_dist |: If the order contains measures related to social distancing | 0=no, 1=yes |
-| bsns |: If the order contains measures related to the operation of businesses |; 0=no, 1=yes |
-| restaurant |: If the order contains measures related to the operation of restaurants |; 0=no, 1=yes |
-| school |: If the order contains measures related to the operation of schools |; 0=no, 1=yes |
-| med_proc | : If the order contains measures related to medical procedures |; 0=no, 1=yes |
-| travel |: If the order contains measures related to travel restrictions |; 0=no, 1=yes |
-| correc_fac |: If the order contains measures related to correctional facilities |; 0=no, 1=yes |
-| notes |: Notes about the Order or Proclamation | |
+| order_num | The name of the Executive Order or Proclamation |
+| amend |  If the order is an amendment to a previous order | 0=no, 1=yes |
+| start_d | The date that the order goes into effect | MM/DD/YYYY; with leading zeros (02/17/2009) |
+| end_d | The date that the order will no longer be in effect | MM/DD/YYYY; with leading zeros (02/17/2009); 0=no date |
+| initial_emgcy | If the order is the initial state of emergency declaration | 0=no, 1=yes |
+| cont_emgcy |  If the order has been released in response to COVID-19 pandemic | 0=no, 1=yes |
+| reopen |  If the order contains measures related to re-opening | 0=no, 1=yes |
+| stay_home | If the order contains measures related to stay at home directives | 0=no, 1=yes |
+| curfew | If the order contains measures related to mandated or suggested curfew | 0=no, 1=yes |
+| mask_req | If the order contains measures related to mask/face-covering requirements | 0=no, 1=yes |
+| gather_ban | If the order contains measures related to gathering ban |0=no, 1=yes |
+| social_dist | If the order contains measures related to social distancing | 0=no, 1=yes |
+| bsns | If the order contains measures related to the operation of businesses | 0=no, 1=yes |
+| restaurant | If the order contains measures related to the operation of restaurants | 0=no, 1=yes |
+| school | If the order contains measures related to the operation of schools | 0=no, 1=yes |
+| med_proc | If the order contains measures related to medical procedures | 0=no, 1=yes |
+| travel | If the order contains measures related to travel restrictions | 0=no, 1=yes |
+| correc_fac | If the order contains measures related to correctional facilities | 0=no, 1=yes |
+| notes | Notes about the Order or Proclamation | |
   
 ## Methodology
 On a weekly basis, new releases of Executive Orders are pulled from [The Council of State Governments](https://web.csg.org/covid19/executive-orders/) and public health department websites before being converted, read, and coded for a quality assurance process by the Policy Track team. Each order is reviewed and compared with the current COVID-19 statutes, regulations, emergency declarations, and mitigation policies dating back to January 20, 2020, as it is the day prior to the first confirmed case of COVID-19 by the Centers for Disease Control and Prevention.
