@@ -11,7 +11,7 @@ In April, BroadStreet and The COVID-19 Data Project partnered with [Temple Unive
 
 ## Structure
 
-The data is in wide format. It is stored in a csv file with the following 22 column fields.
+The data is in wide format. It is stored in a csv file with the following 23 column fields.
 
 ### Content
 | field_name | description | value |
@@ -37,6 +37,7 @@ The data is in wide format. It is stored in a csv file with the following 22 col
 | med_proc | If the order contains measures related to medical procedures | 0=no, 1=yes |
 | travel | If the order contains measures related to travel restrictions | 0=no, 1=yes |
 | correc_fac | If the order contains measures related to correctional facilities | 0=no, 1=yes |
+| vaccine | If the order contains measures related to the COVID-19 vaccine | 0=no, 1=yes |
 | notes | Notes about the Order or Proclamation | |
   
 ## Methodology
