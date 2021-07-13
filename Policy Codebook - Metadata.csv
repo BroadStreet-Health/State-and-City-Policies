@@ -20,6 +20,7 @@ school,If the order contains measures related to the operation of schools,0=no; 
 med_proc,If the order contains measures related to medical procedures,0=no; 1=yes
 travel,If the order contains measures related to travel restrictions,0=no; 1=yes
 correc_fac,If the order contains measures related to correctional facilities,0=no; 1=yes
+vaccine,If the order contains measures related to the COVID-19 vaccine,0=no; 1=yes
 notes,Notes about the Order or Proclamation,plain text
 
 
