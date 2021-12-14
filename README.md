@@ -22,7 +22,7 @@ The data is in wide format. It is stored in a csv file with the following 23 col
 | order_num | The name of the Executive Order or Proclamation |
 | amend |  If the order is an amendment to a previous order | 0=no, 1=yes |
 | start_d | The date that the order goes into effect | MM/DD/YYYY; with leading zeros (02/17/2009) |
-| end_d | The date that the order will no longer be in effect | MM/DD/YYYY; with leading zeros (02/17/2009); 0=no date |
+| end_d | The date that the order will no longer be in effect | MM/DD/YYYY; with leading zeros (02/17/2009; 0=no date |
 | initial_emgcy | If the order is the initial state of emergency declaration | 0=no, 1=yes |
 | cont_emgcy |  If the order has been released in response to COVID-19 pandemic | 0=no, 1=yes |
 | reopen |  If the order contains measures related to re-opening | 0=no, 1=yes |
@@ -49,7 +49,7 @@ State and territory orders are gathered weekly and typically included in our dat
 
   
 ## About Us
-The [Covid-19 Data Project](https://covid19dataproject.org/data/) began in March to satisfy the driving need for accessible data tracking the spread of the coronavirus across the United States. Over 120 interns and volunteers were recruited via the BroadStreet website, and through institutional reference for interested undergraduate or graduate students. The project quickly grew as the virus spread, leading to a large data set involving historical and present data collection, input, and analysis.
+The [Covid-19 Data Project](https://covid19dataproject.org/data/) began in March 2020 to satisfy the driving need for accessible data tracking the spread of the coronavirus across the United States. Over 120 interns and volunteers were recruited via the BroadStreet website, and through institutional reference for interested undergraduate or graduate students. The project quickly grew as the virus spread, leading to a large data set involving historical and present data collection, input, and analysis.
   
 ## Suggested Citation
 When using data images, downloaded data, or shared document formats, please attribute BroadStreet as well as the original source, when applicable. For examples and more information, review this article which answers the question ["How do I cite BroadStreet?"](https://help.broadstreet.io/article/citations/)
