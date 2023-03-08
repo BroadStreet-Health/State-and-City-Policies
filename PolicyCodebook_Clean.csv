@@ -1,8 +1,8 @@
 field_name,description,value
 iden_num,The identification number of the location using FIPS codes,
 geo_type,The type of location affected by the order,Federal; State; County; City; Territory; Indian Territory
-name,The text name of the location,
-order_num,The name of the Executive Order or Proclamation,
+name,The text name of the location,plain text
+order_num,The name of the Executive Order or Proclamation,plain text
 broadstreet_num,The assigned BroadStreet name of the order,EO-#-A# or PH-#-A#
 gov_body,The entity that wrote the order,Executive Authority/Public Health Department
 amend,If the order is an amendment to a previous order,0=no; 1=yes
