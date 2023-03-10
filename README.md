@@ -12,10 +12,6 @@ In April 2020, BroadStreet and The COVID-19 Data Project partnered with [Temple 
 The final data release occurred on March 8th, 2023. 
 
 
-## Structure
-
-The data is in wide format. It is stored in a csv file with the following 23 column fields.
-
 ## Methodology
 On a weekly basis, new releases of Executive Orders are pulled from [The Council of State Governments] (https://web.csg.org/covid19/executive-orders/) and public health department websites before being converted, read, and coded for a quality assurance process by the Policy Track team. This stopped in May 2022 due to the changing nature of the COVID-19 policy landscape. Each order is reviewed and compared with the current COVID-19 statutes, regulations, emergency declarations, and mitigation policies dating back to January 20, 2020, as it is the day prior to the first confirmed case of COVID-19 by the Centers for Disease Control and Prevention.
 
