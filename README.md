@@ -11,7 +11,6 @@ In April 2020, BroadStreet and The COVID-19 Data Project partnered with [Temple 
 
 The final data release occurred on March 8th, 2023. 
 
-# Part I: Raw Data
 
 ## Structure
 
